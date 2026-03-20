@@ -1,0 +1,107 @@
+# Flutter/Dart 相关
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter 生成的临时文件
+.dart_tool/package_config.json
+.dart_tool/version
+coverage/
+**/doc/api/
+
+# Android 相关
+android/.gradle/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+**/keystore.properties
+**/google-services.json   # ← 如果你不想把 firebase 配置提交到 git，可保留这行
+**/google-services-dev.json
+**/google-services-prod.json
+
+# iOS 相关
+ios/.generated/
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcshareddata/
+ios/Runner/Flutter/Flutter.podspec
+**/xcuserdata/
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# macOS / Xcode 通用
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.volumeicon.icns
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# 日志 / 缓存
+*.log
+*.logs
+*.stackdump
+*.pid
+*.seed
+*.pid.lock
+
+# 构建产物 / 发布相关
+*.apk
+*.aab
+*.ipa
+*.dSYM
+*.symbols
+release/
+build/app/outputs/
+build/app/intermediates/
+build/host/
+build/ios/
+build/macos/
+build/windows/
+build/linux/
+
+# 编辑器 / IDE 文件
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+.history/
+.ionide/
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+
+# 其他可能出现的个人配置文件
+.env
+.env.*
+!.env.example
+firebase.json
+.firebaserc
+pubspec.lock   # ← 大多数团队选择提交，但也有团队不提交，看你们团队约定
+
+# 如果你使用 fvm 版本管理（可选）
+.fvm/
