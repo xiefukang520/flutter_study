@@ -11,6 +11,7 @@ abstract final class AppColors {
   static const Color poison = Color(0xFFB85C5C);
   static const Color manga = Color(0xFFD97848);
   static const Color net = Color(0xFF5A9AD4);
+  static const Color profile = Color(0xFF7C5CD6);
   static const Color subtleGlow = Color(0x14FFFFFF);
 }
 

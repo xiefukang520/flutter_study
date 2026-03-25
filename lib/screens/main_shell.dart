@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'manga_quotes_page.dart';
+import 'profile_page.dart';
 import 'today_poison_page.dart';
 import 'trending_quotes_page.dart';
 
@@ -17,6 +18,7 @@ class _MainShellState extends State<MainShell> {
     TodayPoisonPage(),
     MangaQuotesPage(),
     TrendingQuotesPage(),
+    ProfilePage(),
   ];
 
   @override
@@ -44,6 +46,11 @@ class _MainShellState extends State<MainShell> {
             icon: Icon(Icons.whatshot_outlined),
             selectedIcon: Icon(Icons.whatshot_rounded),
             label: '热门网络句子',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.person_outline),
+            selectedIcon: Icon(Icons.person),
+            label: '我的',
           ),
         ],
       ),
